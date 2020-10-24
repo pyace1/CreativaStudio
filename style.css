@@ -38,10 +38,29 @@ Nav
   font-style: italic;
   color: var(--violet) !important;
 }
-.navbar-brand span{
+.navbar-brand span {
   font-weight: 700;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     background: var(--violet);
     color: var(--cream);
+}    
+/*************************
+headerHome
+*************************/
+.headerHome {
+    background-image: linear-gradient(rgba(107,78,113,.8),rgba(255,255,255,.9)),url(img/header-background.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.headerHome h1 {
+    font-size: 4rem;
+}
+.headerHome h1 span {
+    font-style: italic;
+    color: var(--white);
+}
+.headerHome p {
+    font-size: 1.3rem;
 }
