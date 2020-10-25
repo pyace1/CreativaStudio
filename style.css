@@ -132,8 +132,14 @@ footer i:hover {
         transform: rotate(360deg);
     }
 }
-
-
+/*************************
+technologies
+*************************/
+.technologies .card {
+    border: 1px solid var(--violet);
+    box-shadow: 0 0 25px var(--lightgray);
+    margin: 10px;
+}
 
 
 
